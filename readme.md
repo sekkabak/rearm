@@ -1,3 +1,24 @@
+# How to
+
+## Get into recovery
+```
+reagentc /boottore
+shutdown /r /t 0
+```
+
+## Run from recovery cmd
+```
+C:/rearm.cmd
+```
+
+## Rearm days
+```
+slmgr /dlv
+```
+
+
+
+
 rearm (Rearm Every Activation-Related Mechanism)
 ================================================
 **rearm** is a simple script used to reset the state of every activation-related
